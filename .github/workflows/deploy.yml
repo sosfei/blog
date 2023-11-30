@@ -11,6 +11,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  schedule:
+    - cron: '10 2 * * *'
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -43,6 +46,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install dependencies
         run: yarn install # or pnpm install / yarn install / bun install
+      - name: Run the UpdateStars
+        run: yarn docs:stars
       - name: Build with VitePress
         run: |
           yarn docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build

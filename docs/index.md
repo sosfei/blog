@@ -2,24 +2,28 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: 首页
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "FEI自由"
+  text: "追寻自由的方法"
+  tagline: 追寻自由的方法
+  image:
+    src: 'https://cdn.bili33.top/gh/sosfei/figurebed/PicGo/5978632_animal_bat_corona_coronavirus_fly_icon.png'
+    alt: FEI自由
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始学习
+      link: /blogs/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: 'https://github.com/sosfei/blog'
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 前端技术
+    details: HTML CSS JavaScript Vue Ajax TS
+  - title: 后端技术
+    details: Java Spring Mysql Redis
+  - title: 其他技术
+    details: Linux Shell Git SVN Python
 ---
 
