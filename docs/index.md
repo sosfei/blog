@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /blogs/
+      link: /posts/
     - theme: alt
       text: GitHub
       link: 'https://github.com/sosfei/blog'
