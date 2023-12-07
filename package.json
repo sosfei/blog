@@ -6,8 +6,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "docs:stars": "node docs/.vitepress/utils/updateStars.mjs",
-    "docs:send": "node docs/.vitepress/utils/sendWechat.mjs"
+    "docs:stars": "node docs/.vitepress/utils/updateStars.mjs"
   },
   "dependencies": {
     "axios": "^1.6.2",

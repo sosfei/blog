@@ -56,12 +56,6 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: docs/.vitepress/dist
-      - name: Send Notification
-        run: yarn docs:send
-        env: 
-          SEND_URL: ${{ secrets.SEND_URL }}
-          SEND_TOKEN: ${{ secrets.SEND_TOKEN }}
-          SEND_ID: ${{ secrets.SEND_ID }}
 
   # Deployment job
   deploy:
